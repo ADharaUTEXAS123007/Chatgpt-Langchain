@@ -9,6 +9,7 @@ openai = "==0.27.8"
 python-dotenv = "*"
 tiktoken = "*"
 chromadb = "*"
+pyboxen = "*"
 
 [dev-packages]
 

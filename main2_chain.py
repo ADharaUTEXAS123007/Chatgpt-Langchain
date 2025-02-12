@@ -14,8 +14,6 @@ parser.add_argument("--task", default="return a list of numbers", type=str)
 parser.add_argument("--language", default="python", type=str)
 args = parser.parse_args()
 
-# SECURE THIS KEY !!
-api_key = "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"
 
 llm = OpenAI()
 
