@@ -21,6 +21,7 @@ text_splitter = CharacterTextSplitter(
 loader = TextLoader("facts.txt")
 documents = loader.load_and_split(text_splitter=text_splitter)
 
+# calculate all embeddings from documents
 db = Chroma.from_documents(documents, embeddings, persist_directory="emb")
 
 results = db.similarity_search_with_score("What is an interesting fact about the English language?")

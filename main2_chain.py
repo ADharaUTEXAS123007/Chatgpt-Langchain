@@ -1,3 +1,4 @@
+#Here I learnt how to consider SequentialChain
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain

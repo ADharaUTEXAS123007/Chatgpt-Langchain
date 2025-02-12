@@ -13,7 +13,7 @@ memory = ConversationBufferMemory(chat_memory = FileChatMessageHistory("messages
 prompt = ChatPromptTemplate(
     input_variables=["content", "messages"],
     messages=[
-        MessagesPlaceholder(variable_name="chat_history"),
+        MessagesPlaceholder(variable_name="chat_history"), #holds the messages
         HumanMessagePromptTemplate.from_template("{content}")
     ]
 )

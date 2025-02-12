@@ -1,0 +1,4 @@
+What did I learn?
+- langchain loader classes
+- loaders : page_content + metadata
+- langchain.embeddings

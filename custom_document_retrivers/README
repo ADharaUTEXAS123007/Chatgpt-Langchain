@@ -1,0 +1,5 @@
+What I learnt?
+- langchain.vectorstores Chroma
+- Retrival chain QA
+- EmbeddingsRedundantFilter, recalculates embeddings
+- 
