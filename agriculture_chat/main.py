@@ -50,6 +50,6 @@ agent_executor = AgentExecutor(
 )
 
 
-agent_executor("What is RICE_PRODUCTION OF Dist Burdwan?. Write the reports to a report file with Dist name")
-agent_executor("Repeat the same for Dist Nadia but generate a repor")
+agent_executor("What is RICE_PRODUCTION OF Dist Burdwan?")
+#agent_executor("Repeat the same for Dist Nadia but generate a repor")
 
