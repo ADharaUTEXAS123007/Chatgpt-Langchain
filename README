@@ -42,6 +42,16 @@ I am also working on making an AI agent for Indian agriculture
 ╰──────────────────────────────────────────────────────────────────────────────────────────╯                
 
 ╭─ function─╮                                                                                               
-│[[1597.43]]│                                                                                               
+│[[1597.43]]│   
 ╰───────────╯    
+
+---Conversational chat after uploading a pdf on agriculture like plant diseases, crop yields, etc.-----
+
+Below a pdf titled "Panama disease" was uploaded. A Conversational Agent was defined to answer your questions on the pdf.
+The code for this is in the pdf folder.
+
+Here is a screenshot
+
+![Alt text](./images/image.png)
+
 
